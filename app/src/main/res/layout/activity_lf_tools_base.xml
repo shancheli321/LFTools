@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".base.LFToolsBaseActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_toast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="toast弹窗" />
+
+        <TextView
+            android:id="@+id/tv_toast_success"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="toast弹窗成功" />
+
+        <TextView
+            android:id="@+id/tv_toast_white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="toast弹窗白色" />
+
+        <TextView
+            android:id="@+id/tv_toast_black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="toast弹窗黑色" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <TextView
+            android:id="@+id/tv_dialog1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="customdialog弹窗" />
+
+        <TextView
+            android:id="@+id/tv_dialog2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="确定弹窗" />
+
+        <TextView
+            android:id="@+id/tv_dialog3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="快速弹窗" />
+
+        <TextView
+            android:id="@+id/tv_dialog4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="单按钮弹窗" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:id="@+id/tv_progress1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="加载中" />
+
+        <TextView
+            android:id="@+id/tv_progress2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="自定义" />
+
+        <TextView
+            android:id="@+id/tv_progress3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="延迟消失" />
+
+        <TextView
+            android:id="@+id/tv_progress4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dp_5"
+            android:gravity="center"
+            android:text="dismiss" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <com.lf.ui.imageview.LFCircleImageView
+            android:id="@+id/iv_circle"
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_10"
+            app:lf_circle_border_width="@dimen/dp_4"
+            app:lf_circle_border_color="@color/color_007AFF"
+            />
+
+        <com.lf.ui.imageview.LFRectImageView
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@drawable/hugh"
+            app:lf_is_circle="true"
+            app:lf_border_color="@color/color_007AFF"
+            app:lf_border_width="@dimen/dp_4"
+            />
+
+        <com.lf.ui.imageview.LFRectImageView
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@drawable/hugh"
+            app:lf_border_color="@color/color_007AFF"
+            app:lf_border_width="@dimen/dp_4"
+            app:lf_corner_radius="@dimen/dp_8"
+            />
+
+        <com.lf.ui.imageview.LFRectImageView
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@drawable/hugh"
+            app:lf_border_color="@color/color_007AFF"
+            app:lf_border_width="@dimen/dp_4"
+            app:lf_corner_radius="@dimen/dp_8"
+            app:lf_mask_color="@color/color_66ED4F4F"
+            />
+
+        <com.lf.ui.imageview.LFRectImageView
+            android:layout_width="@dimen/dp_40"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:src="@drawable/hugh"
+            app:lf_border_color="@color/color_007AFF"
+            app:lf_border_width="@dimen/dp_4"
+            app:lf_corner_radius="@dimen/dp_8"
+            app:lf_is_cover_src="true"
+            />
+    </LinearLayout>
+
+    <com.lf.ui.textview.LFRoundCornerTextView
+        android:layout_width="@dimen/dp_200"
+        android:layout_height="@dimen/dp_40"
+        android:text="圆角textview"
+        android:textColor="@color/color_ED4F4F"
+        android:textSize="@dimen/sp_15"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_5"
+        app:lf_rc_backgroud_color="@color/color_999999"
+        app:lf_rc_border_color="@color/color_ED4F4F"
+        app:lf_rc_border_width="@dimen/dp_4"
+        app:lf_rc_border_dash_width="@dimen/dp_2"
+        app:lf_rc_border_dash_space="@dimen/dp_2"
+        app:lf_rc_corner_radius="@dimen/dp_20"
+        />
+
+
+</LinearLayout>
