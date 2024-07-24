@@ -51,31 +51,4 @@
         <!-- 自动计算按下(pressed)状态颜色的系数, 值为0时不自动计算 -->
         <attr name="lf_rc_pressed_ratio" format="float"/>
     </declare-styleable>
-
-
-    <!--真正用于解析的属性-->
-    <declare-styleable name="RCAttrs">
-        <attr name="round_as_circle" />
-        <attr name="round_corner" />
-        <attr name="round_corner_top_left" />
-        <attr name="round_corner_top_right" />
-        <attr name="round_corner_bottom_left" />
-        <attr name="round_corner_bottom_right" />
-        <attr name="stroke_color" />
-        <attr name="stroke_width" />
-        <attr name="clip_background" />
-    </declare-styleable>
-
-    <!--假体：用于提示-->
-    <declare-styleable name="RCRelativeLayout">
-        <attr name="round_as_circle" />
-        <attr name="round_corner" />
-        <attr name="round_corner_top_left" />
-        <attr name="round_corner_top_right" />
-        <attr name="round_corner_bottom_left" />
-        <attr name="round_corner_bottom_right" />
-        <attr name="stroke_color" />
-        <attr name="stroke_width" />
-        <attr name="clip_background" />
-    </declare-styleable>
 </resources>
