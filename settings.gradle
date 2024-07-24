@@ -1,3 +1,4 @@
 
 rootProject.name = "LFTools"
 include ':app'
+include ':AppUtils'
