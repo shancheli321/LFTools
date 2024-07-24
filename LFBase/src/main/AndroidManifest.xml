@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lf.base">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application>
+        <activity
+            android:name="com.lf.base.activity.AppBaseActivity"
+            android:exported="false" />
+
+        <activity
+            android:name="com.lf.activity.AppTransparentActivity"
+            android:theme="@style/transparent_activity"
+            android:exported="false" />
+    </application>
+
+</manifest>
